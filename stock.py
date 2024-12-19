@@ -6,6 +6,3 @@ class Stock:
         self.originalPrice = originalPrice
         self.numOfShares = numOfShares
         self.currentPrice = originalPrice
-
-    def updatePrice(self, updatedValue):
-        self.currentPrice = updatedValue
